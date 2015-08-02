@@ -8,15 +8,18 @@ import pandas as pd
 
 class Sample:
 
-  def __init__(self, label, attributes):
+  def __init__(self, label, microarray):
     self.label = label
-    self.attr = attributes
+    self.microarray = microarray
 
   def __str__(self):
     return str(self.label) + ': ' + self.attr
 
   def get_label(self):
     return self.label
+
+  def get_microarray(self):
+    return self.microarray
 
 class Data:
 
@@ -26,8 +29,9 @@ class Data:
     f = open(matrix_path)
     index = 0
     for line in f:
-      attr = line.strip().split(' ')
-      data.append(Sample(labels[index], attr))
+      micro = line.strip().split(' ')
+      micro = map(int, micro)
+      data.append(Sample(labels[index], micro))
       index += 1
     # split the data into a train and test set
     train_size = int(len(data) * 0.66)
