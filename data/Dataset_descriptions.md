@@ -1,11 +1,11 @@
-# (1) Leukemia  
+# Leukemia  
 Study (Golub et al.): https://www.broadinstitute.org/mpr/publications/projects/Leukemia/Golub_et_al_1999.pdf
 
 Two classes:  
-1. acute myeloid leukemia (AML): 25 samples
-2. acute lymphoblastic leukemia (ALL): 47 samples
+1. acute myeloid leukemia (AML): 25 samples  
+2. acute lymphoblastic leukemia (ALL): 47 samples  
 
-```Total number of samples: 72```
+```Total number of samples: 72```  
 ```Total number of genes: 5147```
 
 # (2) Small round blue cell tumors (SRBCT)  
