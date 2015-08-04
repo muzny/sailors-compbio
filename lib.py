@@ -3,8 +3,6 @@ import random
 import codecs
 from IPython.display import display
 from IPython.display import HTML
-import numpy as np
-import pandas as pd
 
 class Sample:
 
@@ -33,6 +31,8 @@ class Data:
       micro = map(int, micro)
       data.append(Sample(labels[index], micro))
       index += 1
+    # shuffle the data
+    random.shuffle(data)
     # split the data into a train and test set
     train_size = int(len(data) * 0.66)
     self.train = data[:train_size]
