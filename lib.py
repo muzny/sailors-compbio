@@ -44,6 +44,7 @@ class DataSet:
       samples.append(Sample(labels[matrix_line_index], gene_profile))
       matrix_line_index += 1
     # shuffle the data to randomize the order of the samples
+    random.seed(1)
     random.shuffle(samples)
     # split the data into a train and test set
     train_size = int(len(samples) * 0.66) # 2/3 of the data
