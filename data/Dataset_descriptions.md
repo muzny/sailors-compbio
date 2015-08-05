@@ -58,6 +58,6 @@ Two classes:
 # Additional datasets of interest
 ## Central Nervous System (CNS) Embryonal Tumors
 Study (Pomeroy et al.): http://www.broad.mit.edu/mpr/CNS/
-# Leukemia ALL before and after treatment
+## Leukemia ALL before and after treatment
 Study (Cheok et al.): http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE412
 
