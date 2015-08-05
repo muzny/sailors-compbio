@@ -10,6 +10,8 @@ from IPython.display import HTML
 # compute the Euclidean distance between the two sample data vectors
 def euclidean_distance(sample_profile1, sample_profile2):
    # TODO 1: implement the Euclidean distance function
+   # --- your code here ---
+   return 0
 
 # Classifiers
 
@@ -29,25 +31,27 @@ class KNearestNeighbors:
         
     def classify_sample(self, test_sample, k, distance_metric):
         # find the k nearest neighbors of the test sample
-        distances = [] # keeps track of the distance to each sample in the training set
+        distances = [] # list of tuples (distance, sample) to keep track of the distance to each sample in the training set
         for train_sample in self.train_set:
 	    # TODO 2: compute the distance between the gene expression profiles of the two samples
+            # --- your code here ---
             # TODO 3: store the computed distance and the training sample it corresponds to
-        
+	    # --- your code here ---         
+	    pass
+
 	distances.sort()
         nearest_neighbors = distances[:k] # keep the closest k samples
-        # take a majority vote on their labels
+        # count the number of votes for each label
         votes = {}
         for neighbor in nearest_neighbors:
             # TODO 4: implement the body of the loop to count how many votes each label has
+	    # --- your code here ---
+	    pass
 
-        # choose the label with the most votes
-        max_votes = 0
-        max_label = 0
-        for v in votes:
-            if votes[v] > max_votes:
-                max_label = v
-                max_votes = votes[v]
+        max_label = 0        
+        # TODO 5: set max_label to the label with most votes 
+        # --- your code here ---
+
         return max_label
 
 
