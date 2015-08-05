@@ -22,16 +22,6 @@ Four classes:
 ```Total number of samples: 83```  
 ```Total number of genes: 2308```  
 
-# Prostate cancer
-Study (Singh et al.): http://www.cell.com/cancer-cell/abstract/S1535-6108(02)00030-2
-
-Two classes:  
-1. normal tissue: 50 samples  
-2. prostate tumor: 52 samples  
-
-```Total number of samples: 102```  
-```Total number of genes: 12533```  
-
 # Lung cancer
 Study (Bhattacharjee et al.): http://www.pnas.org/content/98/24/13790.long
 
@@ -45,15 +35,15 @@ Five classes (4 tumors and normal):
 ```Total number of samples: 203```  
 ```Total number of genes: 12600```  
 
-# Leukemia ALL before and after treatment
-Study (Cheok et al.): http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE412
+# Prostate cancer
+Study (Singh et al.): http://www.cell.com/cancer-cell/abstract/S1535-6108(02)00030-2
 
 Two classes:  
-1. before treatment: 50 samples  
-2. after treatment: 60 samples  
+1. normal tissue: 50 samples  
+2. prostate tumor: 52 samples  
 
-```Total number of samples: 110```  
-```Total number of genes: 8280```  
+```Total number of samples: 102```  
+```Total number of genes: 12533```  
 
 # Renal Cell Carcinoma
 Study (Boer et al.): http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3
@@ -68,4 +58,6 @@ Two classes:
 # Additional datasets of interest
 ## Central Nervous System (CNS) Embryonal Tumors
 Study (Pomeroy et al.): http://www.broad.mit.edu/mpr/CNS/
+# Leukemia ALL before and after treatment
+Study (Cheok et al.): http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE412
 
