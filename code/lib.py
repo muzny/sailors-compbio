@@ -13,7 +13,7 @@ class Sample:
     self.gene_profile = gene_expression_profile
 
   def __str__(self):
-    return str(self.label) + ': ' + self.attr
+    return 'Sample with label: ' + str(self.label)
 
   # returns the class label (i.e. tissue type) of this sample
   def get_label(self):
