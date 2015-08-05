@@ -46,10 +46,11 @@ class DataSet:
     # shuffle the data to randomize the order of the samples
     random.seed(1)
     random.shuffle(samples)
+
     # split the data into a train and test set
     train_size = int(len(samples) * 0.66) # 2/3 of the data
     self.train = samples[:train_size]
-    self.test = samples[train_size + 1:]
+    self.test = samples[train_size:]
 
   # returns the samples in the training set
   def get_train_set(self):
