@@ -10,6 +10,7 @@ from IPython.display import HTML
 # compute the Euclidean distance between the two sample data vectors
 def euclidean_distance(sample_profile1, sample_profile2):
    # TODO 1: implement the Euclidean distance function
+   # You should be able to copy your my_euclidean_distance code here!
    # --- your code here ---
    return 0
 
